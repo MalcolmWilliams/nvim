@@ -173,8 +173,6 @@ return packer.startup(function(use)
 		end,
 	})
 
-	use("pedrohdz/vim-yaml-folds") -- better yaml folding
-
 	-- Automatically set up config after cloning packer.nvim
 	-- Must appear after other plugins
 	if PACKER_BOOTSTRAP then
