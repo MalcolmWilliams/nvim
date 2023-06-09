@@ -58,7 +58,7 @@ end
 
 M.nvim_tree_keymaps = function()
   keymap("n", "<leader>nt", ":NvimTreeToggle<cr>", opts)
-  keymap("n", "<leader>nf", ":NvimTreeFindFileToggle<cr>", opts)
+  keymap("n", "<leader>e", ":NvimTreeFindFileToggle<cr>", opts)
 end
 
 M.telescope_keymaps = function()
